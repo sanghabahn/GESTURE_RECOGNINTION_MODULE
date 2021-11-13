@@ -148,9 +148,8 @@ Sangha Bahn (CAU Art & Technology undergraduate student)
 
 # Modifying Purpose
 '21 Fall Semester, Open Source Programming
-For educational purpose, our team is trying to create a 2D adventure game that can be played by hand-gestures.
+For educational purpose explicitly, our team is trying to create a 2D adventure game that can be played by hand-gestures.
 Have forked to create a hand-gesture-recognintion module, which will be applied into GAME.
-
 
 # Translation and other improvements
 Nikita Kiselov(https://github.com/kinivi)

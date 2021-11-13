@@ -143,6 +143,12 @@ The model using "LSTM" is as follows. <br>Please change "use_lstm = False" to "T
 # Author
 Kazuhito Takahashi(https://twitter.com/KzhtTkhs)
 
+# Modifier
+Sangha Bahn
+
+# Modifying Purpose
+To create a hand-gesture-recognintion module, which will be installed into GAME.
+
 # Translation and other improvements
 Nikita Kiselov(https://github.com/kinivi)
  

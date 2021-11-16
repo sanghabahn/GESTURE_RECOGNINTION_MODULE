@@ -143,16 +143,16 @@ The model using "LSTM" is as follows. <br>Please change "use_lstm = False" to "T
 # Author
 Kazuhito Takahashi(https://twitter.com/KzhtTkhs)
 
+# Translation and other improvements
+Nikita Kiselov(https://github.com/kinivi)
+ 
 # Modifier
 Sangha Bahn (CAU Art & Technology undergraduate student)
 
 # Modifying Purpose
-'21 Fall Semester, Open Source Programming
-For educational purpose explicitly, our team is trying to create a 2D adventure game that can be played by hand-gestures.
-Have forked to create a hand-gesture-recognintion module, which will be applied into GAME.
+'21 Fall Semester, Open Source Programming<br>
+For educational purpose explicitly, our team is trying to create a 2D adventure game that can be played by hand-gestures.<br>
+Have forked to create a hand-gesture-recognintion module, which will be applied into GAME.<br><br>
 
-# Translation and other improvements
-Nikita Kiselov(https://github.com/kinivi)
- 
 # License 
 hand-gesture-recognition-using-mediapipe is under [Apache v2 license](LICENSE).

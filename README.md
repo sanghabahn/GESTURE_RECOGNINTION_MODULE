@@ -151,7 +151,7 @@ Sangha Bahn (CAU Art & Technology undergraduate student)
 
 # Modifying Purpose
 '21 Fall Semester, Open Source Programming<br>
-For educational purpose explicitly, our team is trying to create a 2D adventure game that can be played by hand-gestures.<br>
+For educational purpose explicitly, our team is trying to create a 2D adventure game that can be played by hand gestures.<br>
 Have forked to create a hand-gesture-recognintion module, which will be applied into GAME.<br><br>
 
 # License 

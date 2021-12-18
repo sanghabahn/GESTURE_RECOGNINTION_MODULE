@@ -6,11 +6,8 @@ program that recognizes hand signs and finger gestures with a simple MLP using t
 
 
 This repository contains the following contents.
-* Sample program
 * Hand sign recognition model(TFLite)
-* Finger gesture recognition model(TFLite)
 * Learning data for hand sign recognition and notebook for learning
-* Learning data for finger gesture recognition and notebook for learning
 
 # Requirements
 * mediapipe 0.8.1
@@ -22,7 +19,7 @@ This repository contains the following contents.
 # Demo
 Here's how to run the demo using your webcam.
 ```bash
-python app.py
+python controller.py
 ```
 
 The following options can be specified when running the demo.
@@ -37,28 +34,33 @@ Tracking confidence threshold (Default：0.5)
 
 # Directory
 <pre>
-│  app.py
-│  keypoint_classification.ipynb
-│  point_history_classification.ipynb
+│  controller.py
 │  
+├─ library
+│  ├─ calc.py
+│  │  camera.py
+│  │  draw.py
+│  │  model.py
+│  │  module.py
+│  └─ options.py
+│
 ├─model
 │  ├─keypoint_classifier
 │  │  keypoint.csv
 │  │  keypoint_classifier.hdf5
 │  │  keypoint_classifier.py
 │  │  keypoint_classifier.tflite
-│  └─ keypoint_classifier_label.csv
+│  │  keypoint_classifier_label.csv
+│  └─ train.py
 │  
 └─utils
     └─cvfpscalc.py
 </pre>
-### app.py
-This is a sample program for inference.<br>
-In addition, learning data (key points) for hand sign recognition,<br>
-You can also collect training data (index finger coordinate history) for finger gesture recognition.
+### controller.py
+This controller is used to control the movements within the game.<br>
 
-### keypoint_classification.ipynb
-This is a model training script for hand sign recognition.
+### train.py
+This is a file to train the module for hand sign recognition.
 
 ### model/keypoint_classifier
 This directory stores files related to hand sign recognition.<br>
